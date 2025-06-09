@@ -1,0 +1,62 @@
+- name: Pawkit
+  description: A pet management app that helps users keep track of their pets' activities & tasks.
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: true
+
+- name: Homie
+  description: Furniture Rental App that allows users to rent furniture online.
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://github.com/HmoriKLTA/furniture-rental-app
+  online: true
+
+- name: Movie Watchlist
+  description: 
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: ''
+  online: true
+
+- name: Rails Yelp MVP
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: true
+
+- name: Landing Page
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: false
+
+- name: Profile
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: false
+
+- name: Stupid Coaching App
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: false
+
+- name: Rails Longest Word Game
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: false
+
+- name: Rails Task Manager
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  github: https://www.github.com
+  online: false
