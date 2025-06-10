@@ -13,7 +13,7 @@
   online: true
 
 - name: Movie Watchlist
-  description: 
+  description:
   image: projects/placeholder.png
   url: https://www.google.com
   github: ''
@@ -35,10 +35,10 @@
 
 - name: Profile
   description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
+  image: projects/TetsuNakamuraPhoto.png
+  url: https://hmoriklta.github.io/profile/
+  github: https://github.com/HmoriKLTA/profile
+  online: true
 
 - name: Stupid Coaching App
   description: Decent description of the app
