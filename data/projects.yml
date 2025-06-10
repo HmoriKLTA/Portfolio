@@ -41,10 +41,10 @@
   online: true
 
 - name: Stupid Coaching App
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+  description: Minimal Rails application with 2 pages. First page is a form with an input. Redirected to another page where they will see their question and the coach’s answer.
+  image: projects/StupidCoachingApp.png
+  url:
+  github: https://github.com/HmoriKLTA/rails-stupid-coaching
   online: false
 
 - name: Rails Longest Word Game
