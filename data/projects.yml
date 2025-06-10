@@ -27,14 +27,14 @@
   online: true
 
 - name: Landing Page
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
+  description: 2nd Page created for the Le Wagon Bootcamp. It is a simple landing page that showcases the Australia iconic animals.
+  image: projects/Australia-landing-page.png
+  url: https://hmoriklta.github.io/landing/
+  github: https://github.com/HmoriKLTA/landing
+  online: true
 
 - name: Profile
-  description: Decent description of the app
+  description: 1st page I created for the Le Wagon Bootcamp. It is a simple profile page that showcases the life of Dr Tetsu Nakamura.
   image: projects/TetsuNakamuraPhoto.png
   url: https://hmoriklta.github.io/profile/
   github: https://github.com/HmoriKLTA/profile
