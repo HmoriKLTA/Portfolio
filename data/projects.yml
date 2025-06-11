@@ -19,12 +19,12 @@
   github: ''
   online: true
 
-- name: Rails Yelp MVP
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Task Manager
+  description: A simple task manager app made with Ruby on Rails that allows users to create, update and delete tasks.
+  image: projects/task-manager.png
   url: https://www.google.com
-  github: https://www.github.com
-  online: true
+  github: https://github.com/HmoriKLTA/rails-task-manager
+  online: false
 
 - name: Landing Page
   description: 2nd Page created for the Le Wagon Bootcamp. It is a simple landing page that showcases the Australia iconic animals.
