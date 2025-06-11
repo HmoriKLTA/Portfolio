@@ -47,11 +47,11 @@
   github: https://github.com/HmoriKLTA/rails-stupid-coaching
   online: false
 
-- name: Rails Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Rails Yelp MVP
+  description: Building a two-model Rails app with a restaurant and anonymous reviews.
+  image: projects/Yelp-mvp.png
   url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/HmoriKLTA/rails-yelp-mvp
   online: false
 
 - name: Rails Task Manager
