@@ -12,12 +12,12 @@
   github: https://github.com/HmoriKLTA/furniture-rental-app
   online: true
 
-- name: Movie Watchlist
-  description:
-  image: projects/placeholder.png
+- name: Wikinimous
+  description: A Ruby on Rails application that allows users to create, edit, and delete articles, similar to a simplified version of Wikipedia.
+  image: projects/Wikinimous.png
   url: https://www.google.com
-  github: ''
-  online: true
+  github: 'https://github.com/HmoriKLTA/rails-wikinimous'
+  online: false
 
 - name: Task Manager
   description: A simple task manager app made with Ruby on Rails that allows users to create, update and delete tasks.
