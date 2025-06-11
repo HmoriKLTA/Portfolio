@@ -1,8 +1,8 @@
 - name: Pawkit
-  description: A pet management app that helps users keep track of their pets' activities & tasks.
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+  description: Pawkit is a full-stack web application designed to help pet owners manage and track their pets’ daily, weekly, and monthly care tasks in one organized place.
+  image: projects/pawkit.png
+  url: https://pawkit-4f8eb10e4858.herokuapp.com/
+  github: https://github.com/HmoriKLTA/pawkit
   online: true
 
 - name: Homie
