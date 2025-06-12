@@ -1,9 +1,20 @@
 <div class="row justify-content-center banner">
   <div class="mx-0">
     <%# <%= image_tag 'placeholder.png', alt: "profile photo", class: 'avatar'  %>
-    <h1 class="title-main">Hayao Mori @HmoriKLTA</h1>
-    <%# <%= link_to "https://github.com/HmoriKLTA", target: "_blank", rel: "noopener" do %>
-      <%# <i class="fa-brands fa-github"></i> %>
-      <%# <% end %>
+    <h1 class="title-main mt-5">Hayao Mori @HmoriKLTA</h1>
+    <div class="d-flex justify-content-center flex-wrap">
+      <%# <div class="button-social d-flex flex-column justify-content-center align-items-center"> %>
+      <%# <i class="fa-solid fa-envelope"></i> %>
+      <%#= mail_to "my_name@example.com", "", class: 'button-social-link' %>
+      <%# </div> %>
+      <div class="button-social d-flex flex-column justify-content-center align-items-center">
+        <i class="fa-brands fa-github"></i>
+        <%= link_to "", "https://github.com/HmoriKLTA", target: '_blank', class: 'button-social-link' %>
+      </div>
+      <div class="button-social d-flex flex-column justify-content-center align-items-center">
+        <i class="fa-brands fa-linkedin"></i>
+        <%= link_to "", "https://www.linkedin.com/in/hayao-mori/", target: '_blank', class: 'button-social-link' %>
+      </div>
     </div>
   </div>
+</div>
