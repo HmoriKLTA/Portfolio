@@ -12,6 +12,13 @@
   github: https://github.com/HmoriKLTA/furniture-rental-app
   online: true
 
+- name: Rails Yelp MVP
+  description: Building a two-model Rails app with a restaurant and anonymous reviews.
+  image: projects/Yelp-mvp.png
+  url: https://www.google.com
+  github: https://github.com/HmoriKLTA/rails-yelp-mvp
+  online: false
+
 - name: Wikinimous
   description: A Ruby on Rails application that allows users to create, edit, and delete articles, similar to a simplified version of Wikipedia.
   image: projects/Wikinimous.png
@@ -24,6 +31,13 @@
   image: projects/task-manager.png
   url: https://www.google.com
   github: https://github.com/HmoriKLTA/rails-task-manager
+  online: false
+
+- name: Stupid Coaching App
+  description: Minimal Rails application with 2 pages. First page is a form with an input. Redirected to another page where they will see their question and the coach's answer.
+  image: projects/StupidCoachingApp.png
+  url:
+  github: https://github.com/HmoriKLTA/rails-stupid-coaching
   online: false
 
 - name: Landing Page
@@ -39,24 +53,3 @@
   url: https://hmoriklta.github.io/profile/
   github: https://github.com/HmoriKLTA/profile
   online: true
-
-- name: Stupid Coaching App
-  description: Minimal Rails application with 2 pages. First page is a form with an input. Redirected to another page where they will see their question and the coach’s answer.
-  image: projects/StupidCoachingApp.png
-  url:
-  github: https://github.com/HmoriKLTA/rails-stupid-coaching
-  online: false
-
-- name: Rails Yelp MVP
-  description: Building a two-model Rails app with a restaurant and anonymous reviews.
-  image: projects/Yelp-mvp.png
-  url: https://www.google.com
-  github: https://github.com/HmoriKLTA/rails-yelp-mvp
-  online: false
-
-- name: Rails Task Manager
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
