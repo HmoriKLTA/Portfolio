@@ -1,5 +1,7 @@
-# Middleman Template
+# Middleman Portfolio
 A simple way to build static pages with a Rails feel.
+
+Last updated: <%= Time.now.strftime("%Y-%m-%d %H:%M:%S") %>
 
 ## Using
 
