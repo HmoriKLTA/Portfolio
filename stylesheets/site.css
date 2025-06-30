@@ -8730,6 +8730,42 @@ textarea.form-control-lg {
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border: white 1px solid; }
 
+.banner {
+  background: linear-gradient(120deg, #1677FF 0%, #0056b3 100%);
+  padding: 100px 0 60px 0;
+  text-align: center;
+  color: #fff; }
+
+.banner h1, .banner .h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: 1px; }
+
+.banner p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  opacity: 0.92; }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px; }
+
+.social-links .external-link {
+  color: #fff;
+  font-size: 32px;
+  -webkit-transition: color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.2s, transform 0.2s;
+  transition: color 0.2s, transform 0.2s, -webkit-transform 0.2s; }
+
+.social-links .external-link:hover {
+  color: #FFD700;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15); }
+
 .button-social {
   padding: 0 16px;
   position: relative;
@@ -8747,68 +8783,67 @@ textarea.form-control-lg {
 .cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 16px; }
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  gap: 32px; }
 
 .card-product {
+  background: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  height: 280px;
-  background: white;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
-  border-radius: 5px;
-  -webkit-transition: -webkit-box-shadow 0.3s ease;
-  transition: -webkit-box-shadow 0.3s ease;
-  transition: box-shadow 0.3s ease;
-  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease; }
+  -webkit-transition: -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+  transition: -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+  transition: box-shadow 0.3s, transform 0.3s;
+  transition: box-shadow 0.3s, transform 0.3s, -webkit-box-shadow 0.3s, -webkit-transform 0.3s;
+  position: relative; }
   .card-product:hover {
-    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); }
+    -webkit-box-shadow: 0 12px 32px rgba(22, 119, 255, 0.15);
+            box-shadow: 0 12px 32px rgba(22, 119, 255, 0.15);
+    -webkit-transform: translateY(-6px) scale(1.02);
+            transform: translateY(-6px) scale(1.02); }
 
 .card-product img {
-  height: 184px;
   width: 100%;
+  height: 180px;
   -o-object-fit: cover;
      object-fit: cover; }
 
+.card-product-infos {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1; }
+
 .card-product h2, .card-product .h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0; }
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #222; }
 
 .card-product p {
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px; }
-
-.card-product .card-product-infos {
-  padding: 16px;
-  position: relative; }
-  .card-product .card-product-infos:hover .external-link {
-    opacity: 1; }
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 18px;
+  flex: 1; }
 
 .card-links {
-  position: absolute;
-  top: 16px;
-  right: 16px; }
+  display: flex;
+  gap: 18px;
+  margin-top: 8px; }
 
 .external-link {
-  opacity: 1;
-  color: black;
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s;
-  text-decoration: none;
-  font-size: 20px; }
-  .external-link:hover {
-    cursor: pointer;
-    color: #868686; }
+  color: #1677FF;
+  font-size: 22px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-decoration: none; }
+
+.external-link:hover {
+  color: #0056b3; }
 
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
@@ -8853,3 +8888,21 @@ legend ~ div.form-check:first-of-type {
 
 .navbar-lewagon .navbar-brand img {
   width: 40px; }
+
+body {
+  background: #F8F9FA;
+  color: #222;
+  font-family: 'Work Sans', 'Helvetica', 'sans-serif'; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px; }
+
+h2, .h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 32px;
+  color: #1677FF;
+  text-align: center;
+  letter-spacing: 0.5px; }
