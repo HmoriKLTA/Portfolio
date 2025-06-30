@@ -10,3 +10,24 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  background: #F8F9FA;
+  color: #222;
+  font-family: 'Work Sans', 'Helvetica', 'sans-serif';
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 32px;
+  color: #1677FF;
+  text-align: center;
+  letter-spacing: 0.5px;
+}

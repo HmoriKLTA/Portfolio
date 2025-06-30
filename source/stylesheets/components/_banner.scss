@@ -1,3 +1,36 @@
 .banner {
-  // background-color: #3a6b86;
+  background: linear-gradient(120deg, #1677FF 0%, #0056b3 100%);
+  padding: 100px 0 60px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.banner p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  opacity: 0.92;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.social-links .external-link {
+  color: #fff;
+  font-size: 32px;
+  transition: color 0.2s, transform 0.2s;
+}
+.social-links .external-link:hover {
+  color: #FFD700;
+  transform: scale(1.15);
 }
