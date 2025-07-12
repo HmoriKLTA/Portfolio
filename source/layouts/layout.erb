@@ -8,10 +8,11 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Portfolio" %></title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
-  <body style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #dee2e6 100%); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #2c3e50;">
+  <body style="background-color: #F0F0F0; background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.12) 1px, transparent 0), radial-gradient(circle at 2px 2px, rgba(0,0,0,0.08) 1px, transparent 0), radial-gradient(circle at 3px 1px, rgba(255,255,255,0.06) 1px, transparent 0), radial-gradient(circle at 1px 3px, rgba(0,0,0,0.04) 1px, transparent 0); background-size: 4px 4px, 3px 3px, 5px 5px, 6px 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
     <%= yield %>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
