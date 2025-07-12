@@ -22,15 +22,14 @@
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 32px;
 }
 
 .social-links .external-link {
-  color: #fff;
+  color: #000000;
   font-size: 32px;
   transition: color 0.2s, transform 0.2s;
 }
 .social-links .external-link:hover {
-  color: #FFD700;
+  color: #0a7423;
   transform: scale(1.15);
 }
