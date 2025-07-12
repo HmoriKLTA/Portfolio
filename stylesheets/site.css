@@ -8750,11 +8750,10 @@ textarea.form-control-lg {
 
 .social-links {
   display: flex;
-  justify-content: center;
-  gap: 32px; }
+  justify-content: center; }
 
 .social-links .external-link {
-  color: #fff;
+  color: #000000;
   font-size: 32px;
   -webkit-transition: color 0.2s, -webkit-transform 0.2s;
   transition: color 0.2s, -webkit-transform 0.2s;
@@ -8762,7 +8761,7 @@ textarea.form-control-lg {
   transition: color 0.2s, transform 0.2s, -webkit-transform 0.2s; }
 
 .social-links .external-link:hover {
-  color: #FFD700;
+  color: #0a7423;
   -webkit-transform: scale(1.15);
           transform: scale(1.15); }
 
@@ -8903,6 +8902,7 @@ h2, .h2 {
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 32px;
-  color: #1677FF;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   letter-spacing: 0.5px; }

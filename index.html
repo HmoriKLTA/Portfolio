@@ -8,27 +8,23 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
   </head>
-  <body style="background-color: #f8f9fa;">
+  <body style="background-color: #F0F0F0; background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.12) 1px, transparent 0), radial-gradient(circle at 2px 2px, rgba(0,0,0,0.08) 1px, transparent 0), radial-gradient(circle at 3px 1px, rgba(255,255,255,0.06) 1px, transparent 0), radial-gradient(circle at 1px 3px, rgba(0,0,0,0.04) 1px, transparent 0); background-size: 4px 4px, 3px 3px, 5px 5px, 6px 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
     <!-- Banner Section -->
-<header class="text-center vh-100 w-100 d-flex justify-content-center align-items-center" style="background-image: url('/images/ali-inay--coR_4tgtWA-unsplash.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-  <div class="d-flex flex-column align-items-center">
+<header class="text-center vh-100 w-100 d-flex justify-content-center align-items-center" style="background-image: url('/images/ali-inay--coR_4tgtWA-unsplash.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <div class="d-flex flex-column align-items-center" style="margin-top: -150px;">
     <img src="/images/IMG_20241208_124138916_HDR.jpg" alt="Hayao Mori profile photo" class="rounded-circle mb-4" style="width: 250px; height: 250px; object-fit: cover; border: 1px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" />
     <h1 class="title-main">森 隼央</h1>
     <h1 class="title-main">Hayao Mori</h1>
-    <div class="d-flex justify-content-center flex-wrap mt-4" style="gap: 5rem;">
-      <div class="button-social d-flex flex-column justify-content-center align-items-center">
-        <i class="fa-brands fa-github fa-xl"></i>
-        <a href="https://github.com/HmoriKLTA" target="_blank" class="button-social-link"></a>
-      </div>
-      <div class="button-social d-flex flex-column justify-content-center align-items-center">
-        <i class="fa-brands fa-linkedin fa-xl"></i>
-        <a href="https://www.linkedin.com/in/hayao-mori/" target="_blank" class="button-social-link"></a>
-      </div>
+    <div class="social-links gap-5 mt-3">
+      <a href="https://github.com/HmoriKLTA" target="_blank" class="external-link"><i class='fa-brands fa-github fa-xl'></i></a>
+      <a href="https://www.linkedin.com/in/hayao-mori/" target="_blank" class="external-link"><i class='fa-brands fa-linkedin fa-xl'></i></a>
     </div>
-  </header>
+  </div>
+</header>
 
 <div class="container">
   <!-- About Section -->
@@ -36,9 +32,23 @@
   <div class="col-12">
     <div class="container">
       <div id="about">
-        <h2>About</h2>
+        <h2><i class="fa-solid fa-user fa-lg"></i> About Me</h2>
         <p>Recent graduate Le Wagon 9-week intensive  web development bootcamp, I'm gaining hands-on experience with front-end and back-end technologies, building projects, and sharpening my skills in HTML, CSS, JavaScript, Ruby on Rails and databases.
           I'm excited to connect with developers, engineers, mentors, and tech enthusiasts as I navigate this career shift. Open to discussions about coding, software development, and new opportunities!</p>
+      </div>
+      <div id="tech-stacks">
+        <h2>Tech Stack</h2>
+        <div class="tech-icons d-flex flex-wrap justify-content-center gap-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" style="height: 75px; width: 75px;"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg" style="height: 75px; width: 75px;"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain.svg" style="height: 75px; width: 75px;" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="height: 75px; width: 75px;"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style="height: 75px; width: 75px;"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" style="height: 75px; width: 75px;"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" style="height: 75px; width: 75px;"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style="height: 75px; width: 75px;"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="height: 75px; width: 75px;"/>
+        </div>
       </div>
     </div>
   </div>
@@ -158,7 +168,8 @@
 </div>
 
   <!-- Social Links Section -->
-  <div class="row my-5">
+  <!-- 
+<div class="row my-5">
   <div class="col-12">
     <div id="contact">
       <div class="d-flex justify-content-center flex-wrap">
