@@ -6,7 +6,7 @@
   online: true
 
 - name: Homie
-  description: Furniture Rental App that allows users to rent furniture online.
+  description: Airbnb marketplace clone. Furniture Rental App that allows users to rent furniture online.
   image: projects/placeholder.png
   url: https://www.google.com
   github: https://github.com/HmoriKLTA/furniture-rental-app
