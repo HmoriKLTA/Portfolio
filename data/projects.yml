@@ -1,3 +1,17 @@
+- name: React Portfolio
+  description: This is a to-do list application built with Ruby on Rails, designed to help you manage your tasks and projects efficiently.
+  image: projects/react-portfolio.png
+  url: https://react-portfolio-hmoriklta.netlify.app/
+  github: https://github.com/HmoriKLTA/react-portfolio
+  online: true
+
+- name: Project Manager
+  description: This is a to-do list application built with Ruby on Rails, designed to help you manage your tasks and projects efficiently.
+  image: projects/Project-manager.png
+  url:
+  github: https://github.com/HmoriKLTA/rails-todo-list
+  online: false
+
 - name: Pawkit
   description: Pawkit is a full-stack web application designed to help pet owners manage and track their pets’ daily, weekly, and monthly care tasks in one organized place.
   image: projects/pawkit.png
